@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Formulário de Adoção</title>
+    <link rel="shortcut icon" href="assets/img/pegada.png" type="image/x-icon">
+</head>
+<body>
+
+    <main class="container">
+
+        <section class="area_1">
+            <h2>Termo de Responsabilidade</h2>
+            <p>A adoção de animais é uma forma de contribuir para que este quadro triste se reverta. Contudo, a adoção deve ser responsável, com consciência das necessidades e direitos do animal a ser adotado.</p>
+            <p>A família toda deve consentir, respeitar e, se possível, colaborar para cuidar do novo ente da casa. Se todos dividirem as tarefas no trato do animal ele estará muito bem acolhido.</p>
+        </section>
+
+        <section class="area_2">
+            <h2>Dados para Adoção</h2>
+            <form autocomplete="off">
+                <div class="option">
+                    <label class="title">Nome do Animal:</label>
+                    <input type="text" name="nomeAnimal" id="nomeAnimal" required>
+                </div>
+
+                <div class="option">
+                    <label class="title">Espécie:</label>
+                    <label>
+                        <input type="radio" name="especie" value="canina">Canina
+                    </label>
+                    <label>
+                        <input type="radio" name="especie" value="felina">Felina
+                    </label>
+                </div>
+
+                <div class="option">
+                    <label class="title">Sexo:</label>
+                    <label>
+                        <input type="radio" name="sexo" value="Macho">Macho
+                    </label>
+                    <label>
+                        <input type="radio" name="sexo" value="Fêmea">Fêmea
+                    </label>
+                </div>
+
+                <div class="option">
+                    <label class="title">Porte:</label>
+                    <label>
+                        <input type="radio" name="porte" value="pequeno">Pequeno
+                    </label>
+                    <label>
+                        <input type="radio" name="porte" value="medio">Médio
+                    </label>
+                    <label>
+                        <input type="radio" name="porte" value="grande">Grande
+                    </label>
+                </div>
+
+                <div class="option">
+                    <label class="title">O animal é:</label>
+                    <label>
+                        <input type="radio" name="animale" value="mim">Para mim
+                    </label>
+                    <label>
+                        <input type="radio" name="animale" value="parente">Para um parente
+                    </label>
+                    <label>
+                        <input type="radio" name="animale" value="amigo">Para um amigo
+                    </label>
+                </div>
+            </form>
+        </section>
+
+        <section class="area_3">
+            <h2>Dados do Adotante</h2>
+            <form autocomplete="off">
+                <div class="option">
+                    <label class="title">Nome Completo:</label>
+                    <input type="text" name="nomeAdotante" id="nomeAdotante" required>
+                </div>
+
+                <div class="option">
+                    <label class="title">Profissão:</label>
+                    <input type="text" name="profissao" id="profissao" required>
+                </div>
+
+                <div class="option">
+                    <label class="title">Endereço com número:</label>
+                    <input type="text" name="endereco" id="endereco" required>
+                </div>
+
+                <div class="option">
+                    <label class="title">Bairro:</label>
+                    <input type="text" name="bairro" id="bairro" required>
+                </div>
+
+                <div class="option">
+                    <label class="title">Cidade:</label>
+                    <input type="text" name="cidade" id="cidade" required>
+                </div>
+
+                <div class="option">
+                    <label class="title">Estado:</label>
+                    <input type="text" name="estado" id="estado" required>
+                </div>
+
+                <div class="option">
+                    <label class="title">CEP:</label>
+                    <input type="number" name="cep" id="cep" required>
+                </div>
+
+                <div class="option">
+                    <label class="title">E-mail:</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+
+                <div class="option">
+                    <label class="title">Celular:</label>
+                    <input type="tel" name="celular" id="celular" required>
+                </div>
+            </form>
+        </section>
+
+        <section class="area_4">
+            <h2>Por que você gostaria de adotar?</h2>
+            <form autocomplete="off">
+                <div class="option">
+                    <label class="title">Porque...</label>
+                    <input type="text" name="porque" id="porque" required>
+                </div>
+            </form>
+        </section>
+
+        <section class="area_5">
+            <h2>Questionário</h2>
+            <form autocomplete="off">
+                <div class="option">
+                    <label class="title">Tem mais animais em casa?</label>
+                    <label>
+                        <input type="radio" name="quantidade" value="sim">Sim
+                    </label>
+                    <label>
+                        <input type="radio" name="quantidade" value="nao">Não
+                    </label>
+                </div>
+
+                <div class="option">
+                    <label class="title">Tem condições financeiras para levar o animal ao veterinário?</label>
+                    <label>
+                        <input type="radio" name="condicao" value="sim">Sim
+                    </label>
+                    <label>
+                        <input type="radio" name="condicao" value="nao">Não
+                    </label>
+                </div>
+
+                <div class="option">
+                    <label class="title">Em que tipo de alojamento o animal irá ficar?</label>
+                    <label>
+                        <input type="radio" name="alojamento" value="apartamento">Apartamento
+                    </label>
+                    <label>
+                        <input type="radio" name="alojamento" value="moradia">Moradia
+                    </label>
+                </div>
+
+                <div class="option">
+                    <label class="title">Quando viajar, onde pensa em deixar o animal?</label>
+                    <label>
+                        <input type="radio" name="viagem" value="comigo">Levarei o animal comigo
+                    </label>
+                    <label>
+                        <input type="radio" name="viagem" value="outraPessoa">Entregarei o animal a outra pessoa
+                    </label>
+                </div>
+
+                <div class="option">
+                    <label class="title">Se mudar de residência, o que fará com o animal?</label>
+                    <label>
+                        <input type="radio" name="mudanca" value="comigo">Levarei o animal comigo
+                    </label>
+                    <label>
+                        <input type="radio" name="mudanca" value="outraPessoa">Entregarei o animal a outra pessoa
+                    </label>
+                </div>
+
+                <div class="option">
+                    <label class="title">Tem consciência de que um animal pode viver até aos 10, 15 ou 18 anos? e que se torna responsável por ele durante a vida toda?</label>
+                    <label>
+                        <input type="radio" name="vida" value="sim">Sim
+                    </label>
+                    <label>
+                        <input type="radio" name="vida" value="nao">Não
+                    </label>
+                </div>
+
+                <div class="option">
+                    <label class="title">Já entregou algum animal para adoção/abrigo?</label>
+                    <label>
+                        <input type="radio" name="abrigo" value="sim">Sim
+                    </label>
+                    <label>
+                        <input type="radio" name="abrigo" value="nao">Não
+                    </label>
+                </div>
+            </form>
+        </section>
+
+        <input type="button" class="button" value="Enviar">
+
+    </main>
+
+    <footer>
+        <p>Desenvolvido por <span>Lucas Victor</span></p>
+    </footer>
+
+</body>
+</html>

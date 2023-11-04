@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url(../img/fundo.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    max-width: 80%;
+    margin: auto;
+    margin-bottom: 30px;
+    padding-bottom: 60px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 0 0 15px 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+section {
+    padding: 1em;
+}
+
+h2 {
+    padding: 5px 5px 5px 10px;
+    margin-bottom: 20px;
+    font-size: 18pt;
+    font-weight: bold;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    border-radius: 20px 0 0 20px;
+}
+
+.area_1 p {
+    font-size: 14pt;
+    font-weight: 500;
+    text-indent: 30px;
+    line-height: 2em;
+}
+
+.title {
+    font-size: 18pt;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+label {
+    display: flex;
+    padding: 5px 0;
+}
+
+input {
+    border: none;
+}
+
+#nomeAnimal, .area_3 input, .area_4 input {
+    padding: 5px;
+    width: 100%;
+    font-size: 14pt;
+    border-bottom: 2px solid black;
+}
+
+#nomeAnimal, .area_3 input, .area_4 input:focus {
+    outline: none;
+}
+
+.option {
+    padding: 10px 0 10px 10px;
+}
+
+.button {
+    display: block;
+    margin: auto;
+    margin-top: 60px;
+    padding: 10px 30px;
+    background-color: black;
+    color: white;
+    font-size: 12pt;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: green;
+}
+
+footer {
+    padding: 20px;
+    background-image: linear-gradient(to right, rgb(10, 10, 10), black);
+    text-align: center;
+    color: white;
+}
+
+footer span {
+    color: green;
+    font-weight: bold;
+}
